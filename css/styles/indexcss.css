@@ -1,0 +1,64 @@
+#nav{
+    background-color: #228AE6;
+}
+#mainDiv
+{
+
+    border: 3px solid green;
+    padding: 10px;
+}
+#secondDiv{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    transition: transform .2s
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+#btn{
+    width: 250px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+#btnDiv{
+    margin: 24px 0;
+    padding-bottom: 15px
+}

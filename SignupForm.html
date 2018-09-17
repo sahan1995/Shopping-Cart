@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Please SignUp </title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles/signUpFormcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row main">
+        <div class="panel-heading">
+            <div class="panel-title text-center">
+                <h1 class="title">Shopping Cart</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="main-login main-center">
+            <form class="form-horizontal" method="post" action="#">
+
+                <div class="form-group">
+                    <label for="name" class="cols-sm-2 control-label">Your Name</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact" class="cols-sm-2 control-label">Your Contact</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="contact" id="contact"  placeholder="Enter your Email"/>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="address" class="cols-sm-2 control-label">Your Addess</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="address" id="address"  placeholder="Enter your Address"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="username" class="cols-sm-2 control-label">Username</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+
+
+                        </div>
+
+                        <p id="msg"></p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="cols-sm-2 control-label">Password</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                            <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                            <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <button type="button" class="btn btn-primary btn-lg btn-block login-button" id="btnRegister">Register</button>
+                </div>
+                <div class="login-register">
+                    <a href="index.php">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="js/semantic.min.js"></script>
+<script src="js/controller/signUpFormController.js"></script>
+</body>
+</html>

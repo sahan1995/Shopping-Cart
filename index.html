@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles/indexcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <title>Shopping Cart </title>
+</head>
+<body>
+
+<div class="ui secondary pointing menu" id="nav">
+    <div class="right menu">
+        <div class="menu">
+            <a class="item" href="myCart.html"> <i class="fas fa-cart-arrow-down"></i>&nbsp; My Cart</a>
+        </div>
+
+
+
+
+        <div class="ui simple dropdown item">
+            <i class="fas fa-user"></i>&nbsp;<span id="uname"> User Name </span><i class="fa fa-caret-down"></i>
+            <div class="menu">
+                <a class="item"><i class="fa fa-users"></i> Summary</a>
+                <a class="item" id="logOut"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h2 class="jumbotron-heading">Shopping Cart </h2>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row" id="row">
+
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+
+
+<script src="js/jquery.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="js/semantic.min.js"></script>
+<script src="js/controller/indexController.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+#divImg{
+
+
+    /*border: 1px solid #ccc;*/
+
+    background-color: black;
+}
+#nav{
+    background-color: #228AE6;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    font-family: arial;
+    transition: transform .2s
+}
+#div{
+
+    position: relative;
+    margin-top: 20%;
+
+
+
+}
